@@ -55,7 +55,7 @@ function obtenerNombre (objeto) {
     return `${objeto.first} ${objeto.last}`
 }
 
-/*CARGA LOS DATOS DE LA PAGINA RAMDONUSER */
+/*CARGA LOS DATOS DE LA PAGINA RANDOMUSER */
 
 document.addEventListener('DOMContentLoaded', nuevoUsuario)
 
