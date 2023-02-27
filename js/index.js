@@ -33,8 +33,6 @@ async function nuevoUsuario() {
         
         telefono.textContent = datos.phone        
 
-        console.log(datos)
-
     } catch (e) {
         console.log(e)
     }
@@ -57,4 +55,8 @@ function obtenerNombre (objeto) {
     return `${objeto.first} ${objeto.last}`
 }
 
+/*CARGA LOS DATOS DE LA PAGINA RAMDONUSER */
+
 document.addEventListener('DOMContentLoaded', nuevoUsuario)
+
+
