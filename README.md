@@ -1,2 +1,1 @@
-# ticmas
-ticmas
+proyecto final ticmas
